@@ -1,0 +1,692 @@
+@font-face {
+    font-family: Windows;
+    src: url("w95fa.woff2");
+  }
+
+
+body {
+    margin: 0;
+    font-family: Windows;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("backgrounds/xp.webp");
+    background-size: 100%;
+}
+
+
+.container {
+    width: 700px;
+    height: 80%;
+    z-index: 100;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 80px;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 65px;
+    overflow: hidden;
+}
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none !important;
+}
+
+
+.google {
+    width: 477px;
+    height: 369px;
+    position: absolute;
+    overflow: hidden;
+    background-image: url("backgrounds/xp_wd_win.png");
+    background-repeat: no-repeat;
+    margin-left: 62%;
+    margin-top: 7%;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.308);
+} 
+
+
+.text {
+    background-image: url("backgrounds/google.png");
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.search {
+    margin-top: -20px;
+}
+
+.input1 {
+    margin-top: 8px;
+    margin-left: -20px;
+}
+
+.input2 {
+    margin-top: 8px;
+}
+
+
+
+
+
+/* ICONE ------------------------------------------------------------------------- */
+
+/* 1 ICONA */
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item1:hover .des1 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon1 {
+    background-image: url("icons/MSN.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item1:hover .icon1 {
+    background-image: url("icons/MSN2.png");
+}
+
+.des1 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+/* 2 ICONA */
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item2:hover .des2 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon2 {
+    background-image: url("icons/Outlook\ Express.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item2:hover .icon2 {
+    background-image: url("icons/Outlook\ Express2.png");
+}
+
+.des2 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+/* 3 ICONA */
+
+.item3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item3:hover .des3 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon3 {
+    background-image: url("icons/Whistler\ -\ IE\ Search.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item3:hover .icon3 {
+    background-image: url("icons/Whistler\ -\ IE\ Search2.png");
+}
+
+.des3 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+/* 4 ICONA */
+
+.item4 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item4:hover .des4 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon4 {
+    background-image: url("icons/Office_Word_2007_logo.svg.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item4:hover .icon4 {
+    background-image: url("icons/Office_Word_2007_logo.svg2.png");
+}
+
+.des4 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 0px black;
+}
+
+
+/* 5 ICONA */
+
+.item5 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item5:hover .des5 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon5 {
+    background-image: url("icons/Calendar.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item5:hover .icon5 {
+    background-image: url("icons/Calendar2.png");
+}
+
+.des5 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* 6 ICONA */
+
+.item6 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item6:hover .des6 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon6 {
+    background-image: url("icons/Windows\ Media\ Player\ 9.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item6:hover .icon6 {
+    background-image: url("icons/Windows\ Media\ Player\ 92.png");
+}
+
+.des6 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* 7 ICONA */
+
+.item7 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item7:hover .des7 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon7 {
+    background-image: url("icons/Audio\ CD.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item7:hover .icon7 {
+    background-image: url("icons/Audio\ CD2.png");
+}
+
+.des7 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* 8 ICONA */
+
+.item8 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item8:hover .des8 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon8 {
+    background-image: url("icons/Command\ Prompt.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item8:hover .icon8 {
+    background-image: url("icons/Command\ Prompt2.png");
+}
+
+.des8 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+/* 9 ICONA */
+
+.item9 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item9:hover .des9 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon9 {
+    background-image: url("icons/Earth.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item9:hover .icon9 {
+    background-image: url("icons/Earth2.png");
+}
+
+.des9 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* 10 ICONA */
+
+.item10 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item10:hover .des10 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon10 {
+    background-image: url("icons/Excel.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item10:hover .icon10 {
+    background-image: url("icons/Excel2.png");
+}
+
+.des10 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* 11 ICONA */
+
+.item11 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item11:hover .des11 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon11 {
+    background-image: url("icons/Folder\ Closed.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item11:hover .icon11 {
+    background-image: url("icons/Folder\ Closed2.png");
+}
+
+.des11 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* 12 ICONA */
+
+.item12 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item12:hover .des12 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon12 {
+    background-image: url("icons/paint.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item12:hover .icon12 {
+    background-image: url("icons/paint2.png");
+}
+
+.des12 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+
+/* 13 ICONA */
+
+.item13 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item13:hover .des13 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon13 {
+    background-image: url("icons/Wordpad.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item13:hover .icon13 {
+    background-image: url("icons/Wordpad\ copy2.png");
+}
+
+.des13 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+
+/* 14 ICONA */
+
+.item14 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;   
+}
+
+.item14:hover .des14 {
+    box-shadow: 0px 0px 0px 5px blue;
+    background-color: blue;
+}
+
+.icon14 {
+    background-image: url("icons/JPG.png");
+    background-size: 100%;
+    aspect-ratio: 1 / 1;
+    width: 64px;
+    height: 64px;
+    margin-left: 6px;
+}
+
+.item14:hover .icon14 {
+    background-image: url("icons/JPG2.png");
+}
+
+.des14 {
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px black;
+}
+
+/* ICONE ------------------------------------------------------------------------- */
+
+
+
+
+
+/* PIE DI PAGINA */
+
+footer {
+    height: 60px;
+    width: 100%;
+    background-color: #C0C0C0;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    box-shadow: inset -2px -2px black, inset 2px 2px #e2e2e2, inset -2px -2px #3c3c3c, inset 2px 2px #cccccc;
+    display: flex;
+    align-items: center;
+    display: none;
+    
+
+}
+
+.start {
+    background-color: #C0C0C0;
+    box-shadow: inset -2px -2px black, inset 2px 2px #e2e2e2, inset -4px -4px #3c3c3c, inset 4px 4px #cccccc;
+    height: 45px;
+    width: 120px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.start:hover {
+    background-color: #C0C0C0;
+    box-shadow: inset 2px 2px rgb(0, 0, 0), inset -2px -2px #e2e2e2, inset 4px 4px #3c3c3c, inset -4px -4px #cccccc;
+    height: 45px;
+    width: 120px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-left: 20px;
+}
+
+.icona {
+    background-image: url("start-button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 28px;
+    z-index: 100;
+    flex-shrink: 0;
+    image-rendering: pixelated;
+}
+
+
+
+.ora {
+    background-color: #C0C0C0;
+    box-shadow: inset -3px -3px #e2e2e2, inset 3px 3px #727272;
+    height: 45px;
+    width: 110px;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ora2 {
+    font-size: 18px;
+}
+
+
+
+
+
+/* RESPONSIVE -------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 1440px) {
+    body {background-size: 150%;
+}
+.google {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+      background-size: 250%;
+    }
+    .container {
+        margin-left: 50px;
+    }
+    
+@media only screen and (max-width: 830px) {
+    body {
+      background-size: 250%;
+    }
+    .container {
+        width: 500px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  @media only screen and (max-width: 630px) {
+    body {
+      background-size: 300%;
+    }
+
+    .container {
+        width: 400px;
+        grid-template-columns: repeat(3, 1fr);
+        overflow: scroll;
+    }
+  }
+
+
+/* TELEFONO */
+
+  @media only screen and (max-width: 480px) {
+    body {
+      background-size: 400%;
+    }
+
+    .container {
+        width: 100px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 90px;
+        overflow: scroll;
+    }
+  
+    footer {
+      display: none !important;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+    }
+  }
+}
