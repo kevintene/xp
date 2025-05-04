@@ -457,7 +457,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .icon12 {
-    background-image: url("icons/paint.png");
+    background-image: url("icons/Paint.png");
     background-size: 100%;
     aspect-ratio: 1 / 1;
     width: 64px;
@@ -466,7 +466,7 @@ a, a:visited, a:hover, a:active {
 }
 
 .item12:hover .icon12 {
-    background-image: url("icons/paint2.png");
+    background-image: url("icons/Paint2.png");
 }
 
 .des12 {
