@@ -528,7 +528,7 @@ a:hover {
 }
 
 .icon14 {
-    background-image: url("icons/JPG.png");
+    background-image: url("icons/pinterest.png");
     background-size: 100%;
     aspect-ratio: 1 / 1;
     width: 64px;
@@ -537,7 +537,7 @@ a:hover {
 }
 
 .item14:hover .icon14 {
-    background-image: url("icons/JPG2.png");
+    background-image: url("icons/pinterest2.png");
 }
 
 .des14 {
