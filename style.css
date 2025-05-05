@@ -686,6 +686,11 @@ footer {
         grid-gap: 90px;
         overflow: scroll;
     }
+
+    .icon1 {
+        width: 120px;
+        height: 120px;
+    }
   
     footer {
       display: none !important;
