@@ -682,9 +682,9 @@ footer {
     }
 
     .container {
-        width: 350px;
-        height: 100%;
+        width: 100%;
         padding-left: 50px;
+        padding-right: 10px;
         margin-top: 0px;
         padding-top: 80px;
         grid-template-columns: repeat(2, 1fr);
