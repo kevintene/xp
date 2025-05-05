@@ -683,9 +683,9 @@ footer {
 
     .container {
         width: 350px;
-        margin-left: 25px;
+        padding-left: 50px;
         margin-top: 0px;
-        padding-top: 40px;
+        padding-top: 80px;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 90px;
         overflow: scroll;
