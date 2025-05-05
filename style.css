@@ -683,6 +683,7 @@ footer {
 
     .container {
         width: 350px;
+        height: 100vh;
         padding-left: 50px;
         margin-top: 0px;
         padding-top: 80px;
