@@ -27,6 +27,7 @@ body {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 65px;
     overflow: hidden;
+    background-color: blue;
 }
 
 a, a:visited, a:active {
