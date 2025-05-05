@@ -16,7 +16,7 @@ body {
 
 .container {
     width: 700px;
-    height: 100vh;
+    height: 80%;
     max-height: 900px;
     z-index: 100;
     position: absolute;
