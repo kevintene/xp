@@ -681,13 +681,25 @@ footer {
     }
 
     .container {
-        width: 100px;
+        width: 150px;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 90px;
         overflow: scroll;
     }
 
     .icon1 {
+        width: 120px;
+        height: 120px;
+    }
+    .icon2 {
+        width: 120px;
+        height: 120px;
+    }
+    .icon3 {
+        width: 120px;
+        height: 120px;
+    }
+    .icon4 {
         width: 120px;
         height: 120px;
     }
