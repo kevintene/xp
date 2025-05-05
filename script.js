@@ -57,27 +57,3 @@ window.onbeforeunload = function () {
 const randomIndex = Math.floor(Math.random() * backgrounds.length);
 
 document.body.style.backgroundImage = backgrounds[randomIndex];
-
-
-<script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
-<script>
-  const grid = document.getElementById('iconGrid');
-
-  // Carica ordine salvato
-  const savedOrder = JSON.parse(localStorage.getItem('iconOrder'));
-  if (savedOrder) {
-    savedOrder.forEach(id => {
-      const el = grid.querySelector(`[data-id="${id}"]`);
-      if (el) grid.appendChild(el);
-    });
-  }
-
-  // Abilita drag & drop
-  Sortable.create(grid, {
-    animation: 150,
-    onEnd: () => {
-      const newOrder = [...grid.children].map(el => el.getAttribute('data-id'));
-      localStorage.setItem('iconOrder', JSON.stringify(newOrder));
-    }
-  });
-</script>
